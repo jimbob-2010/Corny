@@ -1,4 +1,5 @@
 logged_in = False 
+geil = ""
 user = input ("Username plese: ")
 if user == "Julian": 
     logged_in = True
@@ -7,7 +8,7 @@ if user == "Julian":
           geil = input ("passwort")
     print ("geil")
 else:
-    print("du h********n, piss dich aus dem system")
+    print("piss dich aus dem system")
  
 if geil == " hunter":
     print ("whats up dady")
