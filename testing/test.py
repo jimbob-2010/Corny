@@ -1,4 +1,10 @@
-i = 0
-while i != 10:
-    print(i)
-    i = i + 1
+while True:
+    i = input("passwort: ")
+    a = 0
+    #while a !=0:
+
+    #    print(i)
+
+    #    a = a + 1 
+    if i == "exit":
+        break
