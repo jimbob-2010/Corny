@@ -1,5 +1,5 @@
-print("connect")
-lachssystem32 = input("User info: ")
+print("connect") 
+lachssystem32 = input("User name: ")
 print(lachssystem32)
 connect = input("passwort: ")
 if connect == "alp":
