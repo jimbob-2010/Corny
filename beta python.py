@@ -5,20 +5,22 @@ if user == "Julian":
     logged_in = True
 
     if logged_in == True:
-          geil = input ("passwort")
+          a = 0
     while True:
            i = input ("passwort: ")
-           a = 0
+           
            if i == "Hunter":
             print ("geil, richtiges passwort!")
             break
            else: 
                print("Falsches Passwort! Versuche erneut!")
-#else:
-#    print("piss dich aus dem system")
+               a = a + 1
+           if a == 3:
+            print("piss dich aus dem system")
+            break
  
-if geil == " hunter":
-    print ("whats up dady")
+#if i == " hunter":
+   # print ("whats up dady")
 #else:
    # print ("leck eier du sacki")
 save = input ("was ist ihr anliegen: ")
